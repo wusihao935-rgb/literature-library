@@ -64,22 +64,6 @@
             "purpose": "any maskable"
         }
     ],
-    "screenshots": [
-        {
-            "src": "/screenshots/desktop.png",
-            "sizes": "1280x720",
-            "type": "image/png",
-            "form_factor": "wide",
-            "label": "文献库桌面版"
-        },
-        {
-            "src": "/screenshots/mobile.png",
-            "sizes": "390x844",
-            "type": "image/png",
-            "form_factor": "narrow",
-            "label": "文献库移动版"
-        }
-    ],
     "shortcuts": [
         {
             "name": "我的文献",

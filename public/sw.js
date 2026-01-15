@@ -1,13 +1,11 @@
 // 文献库 Service Worker
 // 版本号 - 更新此值以强制更新缓存
-const CACHE_VERSION = 'v1.0.0';
+const CACHE_VERSION = 'v1.0.1';
 const CACHE_NAME = `literature-library-${CACHE_VERSION}`;
 
-// 需要缓存的静态资源
+// 需要缓存的静态资源（只缓存确实存在的文件）
 const STATIC_ASSETS = [
     '/',
-    '/index.html',
-    '/index.css',
     '/manifest.json',
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png'
